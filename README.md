@@ -1,4 +1,4 @@
-﻿# cpa-one-click-deployment-or-updating
+﻿# CPA One-click deployment/updating
 
 用于 Ubuntu 22.04+ 的 cliproxyapi 一键部署/更新脚本。  
 One-click deployment/update script for cliproxyapi on Ubuntu 22.04+.
@@ -28,6 +28,17 @@ sudo bash cpa.sh
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Pet-mini/cpa-one-click-deployment-or-updating/main/cpa.sh | sudo bash
+```
+
+#### 方法三：下载压缩包后上传执行
+
+1. 下载项目压缩包
+2. 取出其中的 `cpa.sh`
+3. 将 `cpa.sh` 上传到服务器或者其他测试环境的 `/root` 文件夹下
+4. 执行：
+
+```bash
+bash cpa.sh
 ```
 
 ### 脚本大致会做什么
@@ -83,6 +94,17 @@ sudo bash cpa.sh
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Pet-mini/cpa-one-click-deployment-or-updating/main/cpa.sh | sudo bash
+```
+
+#### Option 3: Upload from downloaded archive
+
+1. Download the project archive
+2. Extract `cpa.sh` from it
+3. Upload `cpa.sh` to the `/root` directory on your server or other test environment
+4. Run:
+
+```bash
+bash cpa.sh
 ```
 
 ### What the script does
