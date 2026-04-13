@@ -1,4 +1,4 @@
-﻿# CPA One-click deployment/updating
+﻿# cpa-one-click-deployment-or-updating
 
 用于 Ubuntu 22.04+ 的 cliproxyapi 一键部署/更新脚本。  
 One-click deployment/update script for cliproxyapi on Ubuntu 22.04+.
